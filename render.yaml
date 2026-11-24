@@ -2,6 +2,7 @@ services:
   - type: web
     name: kidlist-backend
     runtime: docker
+    plan: free
     rootDir: backend
     healthCheckPath: /api/children
     envVars:
