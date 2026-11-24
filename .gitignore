@@ -1,0 +1,14 @@
+# Java / Maven
+backend/target/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local IDE files
+.idea/
+*.iml
