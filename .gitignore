@@ -12,3 +12,8 @@ frontend/.env.*
 # Local IDE files
 .idea/
 *.iml
+.env
+.env.*
+!.env.example
+.neon
+node_modules/

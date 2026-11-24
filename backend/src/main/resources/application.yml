@@ -1,8 +1,10 @@
 server:
   port: ${SERVER_PORT:8080}
 spring:
+  config:
+    import: optional:file:../.env.local[.properties]
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/christmas_wishlist}
+    url: ${SPRING_DATASOURCE_URL:}
     username: ${SPRING_DATASOURCE_USERNAME:christmas}
     password: ${SPRING_DATASOURCE_PASSWORD:christmas}
   jpa:
